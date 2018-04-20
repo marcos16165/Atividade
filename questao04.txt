@@ -1,0 +1,4 @@
+altura = int(input())
+largura = int(input())
+area = altura * largura
+print('A área do retângulo é {}'.format(area))
