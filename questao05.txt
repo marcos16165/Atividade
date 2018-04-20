@@ -1,0 +1,4 @@
+km = int(input('Entre com a quantidade de quilômetros percorridos: '))
+l = int(input('Entre com a quantidade de litros de gasolina consumidos: '))
+consumo = km/l
+print('O carro consume {} litros, por quilômetro.'.format(consumo))
