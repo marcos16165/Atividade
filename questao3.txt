@@ -1,0 +1,5 @@
+hora = int(input('Digite a hora atual: '))
+esperar = int(input('Quantas horas deseja esperar até que o alarme toque? '))
+tempo = (esperar + hora)
+resto = tempo%24
+print(resto)
